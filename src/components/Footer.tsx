@@ -17,6 +17,17 @@ export default function Footer() {
             <p className="mt-4 max-w-sm text-sm leading-6 text-zinc-400">
               {footer.description}
             </p>
+            <p className="mt-3 text-sm text-zinc-500">
+              WhatsApp:{" "}
+              <a
+                href={`https://wa.me/${footer.whatsapp.replace("+", "")}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-green-400 hover:text-green-300"
+              >
+                {footer.whatsapp}
+              </a>
+            </p>
             <div className="mt-6 flex gap-3">
               {footer.social.map((social) => (
                 <a

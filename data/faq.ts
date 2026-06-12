@@ -1,44 +1,44 @@
 export const faqSection = {
   title: "Frequently Asked Questions",
   subtitle:
-    "Everything you need to know about buying and activating games on JSGamesPoint.",
+    "Everything you need to know about our gaming top-ups, gift cards, and digital services.",
 } as const;
 
 export const faqs = [
   {
-    id: "how-delivery-works",
-    question: "How does instant delivery work?",
+    id: "how-topup-works",
+    question: "How do instant game top-ups work?",
     answer:
-      "After your payment is confirmed, your game key is sent to your email and appears in your JSGamesPoint account dashboard within seconds. Simply copy the key and redeem it on the appropriate platform.",
+      "After your payment is confirmed, we process your PC or mobile game recharge instantly. Simply provide your game ID or account details, and our team delivers your top-up within seconds via WhatsApp or email.",
   },
   {
     id: "payment-methods",
     question: "What payment methods do you accept?",
     answer:
-      "We accept major credit and debit cards, PayPal, and select regional payment options. All transactions are processed through secure, encrypted payment gateways.",
+      "We accept bank transfers, mobile wallets, and other regional payment options. Contact us on WhatsApp at +923018938419 for the latest payment methods available in your country.",
+  },
+  {
+    id: "gift-cards",
+    question: "Are your gift cards and redeem codes authentic?",
+    answer:
+      "Yes. All gift cards, redeem codes, and vouchers for platforms like Razer, iTunes, PlayStation, PUBG Mobile, Free Fire, and more are authentic, verified, and delivered instantly.",
+  },
+  {
+    id: "design-services",
+    question: "What design services do you offer?",
+    answer:
+      "We offer professional logo design, YouTube thumbnails, video editing, photo editing, and full website development with domain and hosting included.",
   },
   {
     id: "refund-policy",
     question: "What is your refund policy?",
     answer:
-      "Unredeemed keys may be eligible for a refund within 14 days of purchase. Once a key has been revealed or redeemed, it cannot be refunded due to digital goods regulations.",
-  },
-  {
-    id: "region-lock",
-    question: "Are the game keys region-locked?",
-    answer:
-      "Region compatibility is listed on every product page. We clearly indicate which platforms and regions each key supports before you complete your purchase.",
-  },
-  {
-    id: "account-required",
-    question: "Do I need an account to purchase?",
-    answer:
-      "You can checkout as a guest, but creating a free JSGamesPoint account lets you track orders, store keys securely, and earn loyalty rewards on every purchase.",
+      "Unredeemed digital codes may be eligible for a refund within 14 days of purchase. Once a code has been revealed or redeemed, it cannot be refunded due to digital goods regulations.",
   },
   {
     id: "support-contact",
     question: "How do I contact support?",
     answer:
-      "Reach our support team 24/7 via the contact form below, by email at support@jsgamespoint.com, or through live chat on your account dashboard.",
+      "Reach our support team 24/7 via WhatsApp at +923018938419, email at Official@jsgamespoint.com, or through the contact form on this page.",
   },
 ] as const;

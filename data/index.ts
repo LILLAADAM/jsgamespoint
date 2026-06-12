@@ -1,6 +1,12 @@
 export { site } from "./site";
 export { hero } from "./hero";
-export { gamesSection, featuredGames, type Game } from "./games";
+export { journeySection } from "./journey";
+export { servicesSection, services, type Service } from "./services";
+export { aboutSection } from "./about";
+export { testimonialsSection, testimonials } from "./testimonials";
+export { globalReachSection, globalStats } from "./globalReach";
+export { ctaBanner } from "./cta";
+export { productsSection } from "./products";
 export { featuresSection, features } from "./features";
 export { faqSection, faqs } from "./faq";
 export { contactSection, contactInfo } from "./contact";

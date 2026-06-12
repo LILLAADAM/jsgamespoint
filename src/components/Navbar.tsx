@@ -6,6 +6,7 @@ import { CloseIcon, MenuIcon } from "./Icons";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const whatsappUrl = `https://wa.me/${site.whatsapp.replace("+", "")}`;
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-black/80 backdrop-blur-xl">
@@ -34,7 +35,9 @@ export default function Navbar() {
 
         <div className="hidden items-center gap-3 md:flex">
           <a
-            href="#games"
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-blue-500 hover:shadow-lg hover:shadow-blue-500/25"
           >
             {site.cta.primary}
@@ -68,7 +71,9 @@ export default function Navbar() {
             ))}
             <li className="pt-2">
               <a
-                href="#games"
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block rounded-lg bg-blue-600 px-3 py-2.5 text-center text-sm font-semibold text-white"
                 onClick={() => setOpen(false)}
               >

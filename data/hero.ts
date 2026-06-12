@@ -1,15 +1,15 @@
 export const hero = {
-  badge: "New Arrivals Weekly",
-  title: "Play. Compete.",
-  titleHighlight: "Conquer.",
+  badge: "Global Digital Solutions",
+  title: "Games Top-ups, Gift Cards,",
+  titleHighlight: "Websites & Advertising Services",
   subtitle:
-    "Discover thousands of digital games at unbeatable prices. Instant delivery, secure checkout, and deals updated every week.",
+    "Discover a world of instant game recharges, premium gift cards, and expert digital services tailored for gamers and creators alike on good pricing.",
   stats: [
-    { value: "10K+", label: "Games Available" },
-    { value: "500K+", label: "Happy Gamers" },
-    { value: "24/7", label: "Live Support" },
-    { value: "99.9%", label: "Uptime" },
+    { value: "5+", label: "Years Experience" },
+    { value: "24/7", label: "Customer Support" },
+    { value: "10+", label: "Digital Services" },
+    { value: "50+", label: "Countries Served" },
   ],
-  primaryCta: "Explore Featured Games",
-  secondaryCta: "View All Deals",
+  primaryCta: "Explore Our Services",
+  secondaryCta: "Chat on WhatsApp",
 } as const;

@@ -1,50 +1,29 @@
 export const featuresSection = {
-  title: "Why Choose JSGamesPoint",
+  title: "Why Choose Us?",
   subtitle:
-    "Built for gamers who demand speed, security, and savings on every purchase.",
+    "JSGamesPoint stands out in providing instant digital solutions, modern web development, and comprehensive support for gaming and business needs.",
 } as const;
 
 export const features = [
   {
-    id: "instant-delivery",
-    title: "Instant Key Delivery",
+    id: "instant-topups",
+    title: "Instant Game Top-Ups",
     description:
-      "Receive your game key within seconds after checkout. No waiting, no hassle — start playing immediately.",
+      "Experience seamless and immediate top-ups for your favorite PC and mobile games, ensuring you never miss a moment of gaming action.",
     icon: "bolt",
   },
   {
-    id: "secure-payments",
-    title: "Secure Payments",
+    id: "design-services",
+    title: "Professional Design Services",
     description:
-      "Industry-standard encryption protects every transaction. Shop with confidence using trusted payment methods.",
-    icon: "shield",
-  },
-  {
-    id: "best-prices",
-    title: "Best Prices Guaranteed",
-    description:
-      "We monitor market prices daily to bring you competitive deals on new releases and classic favorites.",
-    icon: "tag",
-  },
-  {
-    id: "global-support",
-    title: "24/7 Global Support",
-    description:
-      "Our dedicated support team is available around the clock to help with orders, keys, and account issues.",
-    icon: "headset",
-  },
-  {
-    id: "wide-catalog",
-    title: "Massive Game Catalog",
-    description:
-      "From indie gems to AAA blockbusters — browse thousands of titles across every genre and platform.",
-    icon: "grid",
-  },
-  {
-    id: "loyalty-rewards",
-    title: "Loyalty Rewards",
-    description:
-      "Earn points on every purchase and unlock exclusive discounts, early access, and member-only deals.",
+      "From custom logos to stunning video editing, we offer a full suite of design solutions to elevate your brand's digital presence.",
     icon: "star",
+  },
+  {
+    id: "customer-support",
+    title: "24/7 Customer Support",
+    description:
+      "Our dedicated support team is available around the clock to assist with inquiries, ensuring you receive timely help whenever you need it.",
+    icon: "headset",
   },
 ] as const;

@@ -1,6 +1,8 @@
-import { hero } from "@data/index";
+import { hero, site } from "@data/index";
 
 export default function Hero() {
+  const whatsappUrl = `https://wa.me/${site.whatsapp.replace("+", "")}`;
+
   return (
     <section
       id="home"
@@ -20,12 +22,12 @@ export default function Hero() {
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-3xl text-center">
+        <div className="mx-auto max-w-4xl text-center">
           <span className="inline-flex items-center rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-1.5 text-xs font-semibold tracking-wide text-blue-400 uppercase">
             {hero.badge}
           </span>
 
-          <h1 className="font-display mt-6 text-4xl font-bold tracking-tight text-white sm:text-6xl lg:text-7xl">
+          <h1 className="font-display mt-6 text-3xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
             {hero.title}{" "}
             <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
               {hero.titleHighlight}
@@ -38,14 +40,16 @@ export default function Hero() {
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
-              href="#games"
+              href="#services"
               className="w-full rounded-xl bg-blue-600 px-8 py-3.5 text-center text-sm font-semibold text-white shadow-lg shadow-blue-600/30 transition-all hover:bg-blue-500 hover:shadow-blue-500/40 sm:w-auto"
             >
               {hero.primaryCta}
             </a>
             <a
-              href="#features"
-              className="w-full rounded-xl border border-white/15 bg-white/5 px-8 py-3.5 text-center text-sm font-semibold text-white backdrop-blur transition-all hover:border-blue-500/40 hover:bg-white/10 sm:w-auto"
+              href={whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full rounded-xl border border-white/15 bg-white/5 px-8 py-3.5 text-center text-sm font-semibold text-white backdrop-blur transition-all hover:border-green-500/40 hover:bg-green-500/10 hover:text-green-400 sm:w-auto"
             >
               {hero.secondaryCta}
             </a>
