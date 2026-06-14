@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { hero, site } from "@data/index";
 
 export default function Hero() {
@@ -39,12 +40,12 @@ export default function Hero() {
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <a
-              href="#services"
+            <Link
+              href="/#services"
               className="w-full rounded-xl bg-blue-600 px-8 py-3.5 text-center text-sm font-semibold text-white shadow-lg shadow-blue-600/30 transition-all hover:bg-blue-500 hover:shadow-blue-500/40 sm:w-auto"
             >
               {hero.primaryCta}
-            </a>
+            </Link>
             <a
               href={whatsappUrl}
               target="_blank"

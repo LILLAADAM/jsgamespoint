@@ -1,7 +1,7 @@
 export { site } from "./site";
 export { hero } from "./hero";
 export { journeySection } from "./journey";
-export { servicesSection, services, type Service } from "./services";
+export { servicesSection, services, type Service, type ServiceIcon } from "./services";
 export { aboutSection } from "./about";
 export { testimonialsSection, testimonials } from "./testimonials";
 export { globalReachSection, globalStats } from "./globalReach";
@@ -11,3 +11,8 @@ export { featuresSection, features } from "./features";
 export { faqSection, faqs } from "./faq";
 export { contactSection, contactInfo } from "./contact";
 export { footer } from "./footer";
+export { privacyPolicy } from "./policies/privacy-policy";
+export { refundPolicy } from "./policies/refund-policy";
+export { cookiePolicy } from "./policies/cookie-policy";
+export { inviteEarnPage } from "./invite-earn";
+export type { LegalPageData, PolicySection } from "./policies/types";
