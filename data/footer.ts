@@ -26,7 +26,7 @@ export const footer = {
         { label: "Contact", href: "/#contact" },
         { label: "Help Center", href: "/#faq" },
         { label: "WhatsApp", href: "https://wa.me/923018938419" },
-        { label: "Terms of Service", href: "/terms", comingSoon: true },
+        { label: "Terms of Service", href: "/terms" },
       ],
     },
     legal: {
@@ -35,6 +35,7 @@ export const footer = {
         { label: "Privacy Policy", href: "/privacy-policy" },
         { label: "Refund Policy", href: "/refund-policy" },
         { label: "Cookie Policy", href: "/cookie-policy" },
+        { label: "Terms of Service", href: "/terms" },
         { label: "Cookie Settings", href: "#cookie-settings", action: "cookie-settings" as const },
       ],
     },

@@ -109,7 +109,7 @@ export const cookiePolicy: LegalPageData = {
       title: "Managing Your Cookie Preferences",
       paragraphs: [
         "You can manage cookies through our website cookie banner (Accept All, Reject All, or Cookie Settings). You may also control cookies through your browser settings by blocking or deleting cookies.",
-        "Please note that blocking necessary cookies may affect website functionality. For questions about your preferences, contact us at Official@jsgamespoint.com.",
+        "Please note that blocking necessary cookies may affect website functionality. For questions about your preferences, please contact us using the details in our website footer.",
       ],
     },
     {
@@ -117,16 +117,6 @@ export const cookiePolicy: LegalPageData = {
       title: "Future Updates",
       paragraphs: [
         "As JSGamesPoint grows, we may add new cookies or technologies for analytics, affiliate tracking, advertising, or enhanced features. We will update this Cookie Policy and request renewed consent where required by law before activating new non-essential categories.",
-      ],
-    },
-    {
-      id: "contact",
-      title: "Contact Us",
-      paragraphs: ["For cookie-related inquiries, contact JSGamesPoint:"],
-      list: [
-        "Email: Official@jsgamespoint.com",
-        "WhatsApp: +923018938419",
-        "Address: JSGamespoint Office, Blue Area, Islamabad, Pakistan",
       ],
     },
   ],

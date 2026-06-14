@@ -82,16 +82,6 @@ export const refundPolicy: LegalPageData = {
         "Detailed description of the issue.",
         "Screenshots or supporting evidence where applicable.",
       ],
-      subsections: [
-        {
-          title: "Contact Channels",
-          list: [
-            "Email: Official@jsgamespoint.com",
-            "WhatsApp: +923018938419",
-            "Contact Form: jsgamespoint.com/#contact",
-          ],
-        },
-      ],
     },
     {
       id: "processing-times",

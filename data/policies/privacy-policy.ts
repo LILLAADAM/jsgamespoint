@@ -143,12 +143,7 @@ export const privacyPolicy: LegalPageData = {
       id: "contact",
       title: "Contact Us",
       paragraphs: [
-        "For privacy-related questions, data access requests, or complaints, contact JSGamesPoint:",
-      ],
-      list: [
-        "Email: Official@jsgamespoint.com",
-        "WhatsApp: +923018938419",
-        "Address: JSGamespoint Office, Blue Area, Islamabad, Pakistan",
+        "For privacy-related questions, data access requests, or complaints, please contact JSGamesPoint using the details provided in our website footer.",
       ],
     },
   ],

@@ -38,7 +38,7 @@ export const faqs = [
   {
     id: "support-contact",
     question: "How do I contact support?",
-    answer:
-      "Reach our support team 24/7 via WhatsApp at +923018938419, email at Official@jsgamespoint.com, or through the contact form on this page.",
+      answer:
+        "Reach our support team 24/7 via the contact form on this page or using the contact details in our website footer.",
   },
 ] as const;

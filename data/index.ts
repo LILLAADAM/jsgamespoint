@@ -15,4 +15,5 @@ export { privacyPolicy } from "./policies/privacy-policy";
 export { refundPolicy } from "./policies/refund-policy";
 export { cookiePolicy } from "./policies/cookie-policy";
 export { inviteEarnPage } from "./invite-earn";
+export { termsOfService } from "./policies/terms-of-service";
 export type { LegalPageData, PolicySection } from "./policies/types";

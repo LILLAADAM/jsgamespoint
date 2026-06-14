@@ -72,11 +72,6 @@ export default function Footer() {
                       >
                         {item.label}
                       </button>
-                    ) : "comingSoon" in item && item.comingSoon ? (
-                      <span className="text-sm text-zinc-500">
-                        {item.label}{" "}
-                        <span className="text-xs text-zinc-600">(Coming Soon)</span>
-                      </span>
                     ) : (
                       <Link
                         href={item.href}
@@ -92,27 +87,8 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row">
-          <p className="text-sm text-zinc-500">
-            &copy; {year} {footer.copyright}
-          </p>
-          <nav aria-label="Footer legal links" className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-sm">
-            <Link href="/privacy-policy" className="text-zinc-500 hover:text-blue-400">
-              Privacy Policy
-            </Link>
-            <Link href="/refund-policy" className="text-zinc-500 hover:text-blue-400">
-              Refund Policy
-            </Link>
-            <Link href="/cookie-policy" className="text-zinc-500 hover:text-blue-400">
-              Cookie Policy
-            </Link>
-            <Link href="/invite-earn" className="text-zinc-500 hover:text-blue-400">
-              Invite &amp; Earn
-            </Link>
-            <Link href="/#contact" className="text-zinc-500 hover:text-blue-400">
-              Contact
-            </Link>
-          </nav>
+        <div className="mt-12 border-t border-white/10 pt-8 text-center text-sm text-zinc-500">
+          <p>&copy; {year} {footer.copyright}</p>
         </div>
       </div>
     </footer>
