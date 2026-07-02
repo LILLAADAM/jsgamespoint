@@ -35,9 +35,23 @@ export default function Navbar() {
               </Link>
             </li>
           ))}
+          <li>
+            <Link
+              href="/account"
+              className="text-sm font-semibold text-white/90 transition-colors hover:text-blue-400"
+            >
+              Account
+            </Link>
+          </li>
         </ul>
 
         <div className="hidden items-center gap-3 md:flex">
+          <Link
+            href="/account"
+            className="rounded-lg border border-white/15 bg-white/5 px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-white/10"
+          >
+            Account
+          </Link>
           <a
             href={whatsappUrl}
             target="_blank"
@@ -73,6 +87,15 @@ export default function Navbar() {
                 </Link>
               </li>
             ))}
+            <li>
+              <Link
+                href="/account"
+                className="block rounded-lg px-3 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-white/5 hover:text-blue-400"
+                onClick={() => setOpen(false)}
+              >
+                Account
+              </Link>
+            </li>
             <li className="pt-2">
               <a
                 href={whatsappUrl}
